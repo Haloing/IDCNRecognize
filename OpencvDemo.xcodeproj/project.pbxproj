@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82F4627B29BD9659164DEEDD /* libPods-OpencvDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A59094ACACBF010648879D7 /* libPods-OpencvDemoTests.a */; };
+		9D4AE85F1FC6AF8A009F8B17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AE85E1FC6AF8A009F8B17 /* AppDelegate.m */; };
+		9D4AE8621FC6AF8A009F8B17 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AE8611FC6AF8A009F8B17 /* ViewController.mm */; };
+		9D4AE8651FC6AF8A009F8B17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4AE8631FC6AF8A009F8B17 /* Main.storyboard */; };
+		9D4AE8671FC6AF8A009F8B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4AE8661FC6AF8A009F8B17 /* Assets.xcassets */; };
+		9D4AE86A1FC6AF8A009F8B17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4AE8681FC6AF8A009F8B17 /* LaunchScreen.storyboard */; };
+		9D4AE86D1FC6AF8A009F8B17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AE86C1FC6AF8A009F8B17 /* main.m */; };
+		9D4AE8771FC6AF8A009F8B17 /* OpencvDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AE8761FC6AF8A009F8B17 /* OpencvDemoTests.m */; };
+		9D4AE8821FC6AF8B009F8B17 /* OpencvDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AE8811FC6AF8B009F8B17 /* OpencvDemoUITests.m */; };
+		9D4AE8901FC6AFA3009F8B17 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4AE88F1FC6AFA3009F8B17 /* opencv2.framework */; };
+		9D4AE8E91FC83B99009F8B17 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4AE8E81FC83B99009F8B17 /* libc++.tbd */; };
+		9D4AE8EB1FC83BA0009F8B17 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4AE8EA1FC83BA0009F8B17 /* AVFoundation.framework */; };
+		9D4AE8ED1FC83BA7009F8B17 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4AE8EC1FC83BA7009F8B17 /* CoreImage.framework */; };
+		9D4AE8EF1FC83BB2009F8B17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4AE8EE1FC83BB2009F8B17 /* CoreGraphics.framework */; };
+		9D4AE8F11FC83BBC009F8B17 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4AE8F01FC83BBC009F8B17 /* QuartzCore.framework */; };
+		9D4AE8F31FC83BC3009F8B17 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4AE8F21FC83BC3009F8B17 /* Accelerate.framework */; };
+		9D4AE8F51FC83BF0009F8B17 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4AE8F41FC83BEF009F8B17 /* CoreVideo.framework */; };
+		9D4AE8F71FC83BFC009F8B17 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4AE8F61FC83BFB009F8B17 /* CoreMedia.framework */; };
+		9D4AE8F91FC83C03009F8B17 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4AE8F81FC83C03009F8B17 /* AssetsLibrary.framework */; };
+		9D4AE8FB1FC83C30009F8B17 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 9D4AE8FA1FC83C2F009F8B17 /* tessdata */; };
+		B64C0794F844B691D87099E7 /* libPods-OpencvDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E230BD13CC7D0D6BC760E5 /* libPods-OpencvDemo.a */; };
+		B993AEEB44B2F9E62AE9E717 /* libPods-OpencvDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8468DCEB29D7AE803C670540 /* libPods-OpencvDemoUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D4AE8731FC6AF8A009F8B17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D4AE8521FC6AF8A009F8B17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D4AE8591FC6AF8A009F8B17;
+			remoteInfo = OpencvDemo;
+		};
+		9D4AE87E1FC6AF8A009F8B17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D4AE8521FC6AF8A009F8B17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D4AE8591FC6AF8A009F8B17;
+			remoteInfo = OpencvDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FB8D01DFC7E0B598091AA52 /* Pods-OpencvDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpencvDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpencvDemoTests/Pods-OpencvDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8468DCEB29D7AE803C670540 /* libPods-OpencvDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpencvDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E230BD13CC7D0D6BC760E5 /* libPods-OpencvDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpencvDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB6DC20837E4B4B82B83410 /* Pods-OpencvDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpencvDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpencvDemoUITests/Pods-OpencvDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A59094ACACBF010648879D7 /* libPods-OpencvDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpencvDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4AE85A1FC6AF8A009F8B17 /* OpencvDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpencvDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4AE85D1FC6AF8A009F8B17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D4AE85E1FC6AF8A009F8B17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D4AE8601FC6AF8A009F8B17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D4AE8611FC6AF8A009F8B17 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		9D4AE8641FC6AF8A009F8B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D4AE8661FC6AF8A009F8B17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D4AE8691FC6AF8A009F8B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D4AE86B1FC6AF8A009F8B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D4AE86C1FC6AF8A009F8B17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D4AE8721FC6AF8A009F8B17 /* OpencvDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpencvDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4AE8761FC6AF8A009F8B17 /* OpencvDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpencvDemoTests.m; sourceTree = "<group>"; };
+		9D4AE8781FC6AF8A009F8B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D4AE87D1FC6AF8A009F8B17 /* OpencvDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpencvDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4AE8811FC6AF8B009F8B17 /* OpencvDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpencvDemoUITests.m; sourceTree = "<group>"; };
+		9D4AE8831FC6AF8B009F8B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D4AE88F1FC6AFA3009F8B17 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		9D4AE8911FC6B147009F8B17 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9D4AE8E81FC83B99009F8B17 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9D4AE8EA1FC83BA0009F8B17 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9D4AE8EC1FC83BA7009F8B17 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		9D4AE8EE1FC83BB2009F8B17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D4AE8F01FC83BBC009F8B17 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9D4AE8F21FC83BC3009F8B17 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		9D4AE8F41FC83BEF009F8B17 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		9D4AE8F61FC83BFB009F8B17 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9D4AE8F81FC83C03009F8B17 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		9D4AE8FA1FC83C2F009F8B17 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		B4A25527A2F38E63CE22A786 /* Pods-OpencvDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpencvDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpencvDemoTests/Pods-OpencvDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9636CC577F810AEA1929F4A /* Pods-OpencvDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpencvDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpencvDemo/Pods-OpencvDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E3D28062CA56A137A975DC0F /* Pods-OpencvDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpencvDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpencvDemoUITests/Pods-OpencvDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E713FF49FEC48FDF64EC57B2 /* Pods-OpencvDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpencvDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpencvDemo/Pods-OpencvDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D4AE8571FC6AF8A009F8B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4AE8F91FC83C03009F8B17 /* AssetsLibrary.framework in Frameworks */,
+				9D4AE8F71FC83BFC009F8B17 /* CoreMedia.framework in Frameworks */,
+				9D4AE8F51FC83BF0009F8B17 /* CoreVideo.framework in Frameworks */,
+				9D4AE8F31FC83BC3009F8B17 /* Accelerate.framework in Frameworks */,
+				9D4AE8F11FC83BBC009F8B17 /* QuartzCore.framework in Frameworks */,
+				9D4AE8EF1FC83BB2009F8B17 /* CoreGraphics.framework in Frameworks */,
+				9D4AE8ED1FC83BA7009F8B17 /* CoreImage.framework in Frameworks */,
+				9D4AE8EB1FC83BA0009F8B17 /* AVFoundation.framework in Frameworks */,
+				9D4AE8E91FC83B99009F8B17 /* libc++.tbd in Frameworks */,
+				9D4AE8901FC6AFA3009F8B17 /* opencv2.framework in Frameworks */,
+				B64C0794F844B691D87099E7 /* libPods-OpencvDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4AE86F1FC6AF8A009F8B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F4627B29BD9659164DEEDD /* libPods-OpencvDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4AE87A1FC6AF8A009F8B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B993AEEB44B2F9E62AE9E717 /* libPods-OpencvDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B741333D084BC5F54C9004F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D4AE8F81FC83C03009F8B17 /* AssetsLibrary.framework */,
+				9D4AE8F61FC83BFB009F8B17 /* CoreMedia.framework */,
+				9D4AE8F41FC83BEF009F8B17 /* CoreVideo.framework */,
+				9D4AE8F21FC83BC3009F8B17 /* Accelerate.framework */,
+				9D4AE8F01FC83BBC009F8B17 /* QuartzCore.framework */,
+				9D4AE8EE1FC83BB2009F8B17 /* CoreGraphics.framework */,
+				9D4AE8EC1FC83BA7009F8B17 /* CoreImage.framework */,
+				9D4AE8EA1FC83BA0009F8B17 /* AVFoundation.framework */,
+				9D4AE8E81FC83B99009F8B17 /* libc++.tbd */,
+				88E230BD13CC7D0D6BC760E5 /* libPods-OpencvDemo.a */,
+				9A59094ACACBF010648879D7 /* libPods-OpencvDemoTests.a */,
+				8468DCEB29D7AE803C670540 /* libPods-OpencvDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49B099F55605BE4C632C040F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E713FF49FEC48FDF64EC57B2 /* Pods-OpencvDemo.debug.xcconfig */,
+				C9636CC577F810AEA1929F4A /* Pods-OpencvDemo.release.xcconfig */,
+				5FB8D01DFC7E0B598091AA52 /* Pods-OpencvDemoTests.debug.xcconfig */,
+				B4A25527A2F38E63CE22A786 /* Pods-OpencvDemoTests.release.xcconfig */,
+				E3D28062CA56A137A975DC0F /* Pods-OpencvDemoUITests.debug.xcconfig */,
+				8DB6DC20837E4B4B82B83410 /* Pods-OpencvDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D4AE8511FC6AF8A009F8B17 = {
+			isa = PBXGroup;
+			children = (
+				9D4AE85C1FC6AF8A009F8B17 /* OpencvDemo */,
+				9D4AE8751FC6AF8A009F8B17 /* OpencvDemoTests */,
+				9D4AE8801FC6AF8B009F8B17 /* OpencvDemoUITests */,
+				9D4AE85B1FC6AF8A009F8B17 /* Products */,
+				49B099F55605BE4C632C040F /* Pods */,
+				1B741333D084BC5F54C9004F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D4AE85B1FC6AF8A009F8B17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D4AE85A1FC6AF8A009F8B17 /* OpencvDemo.app */,
+				9D4AE8721FC6AF8A009F8B17 /* OpencvDemoTests.xctest */,
+				9D4AE87D1FC6AF8A009F8B17 /* OpencvDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D4AE85C1FC6AF8A009F8B17 /* OpencvDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9D4AE8FA1FC83C2F009F8B17 /* tessdata */,
+				9D4AE88F1FC6AFA3009F8B17 /* opencv2.framework */,
+				9D4AE85D1FC6AF8A009F8B17 /* AppDelegate.h */,
+				9D4AE85E1FC6AF8A009F8B17 /* AppDelegate.m */,
+				9D4AE8601FC6AF8A009F8B17 /* ViewController.h */,
+				9D4AE8611FC6AF8A009F8B17 /* ViewController.mm */,
+				9D4AE8631FC6AF8A009F8B17 /* Main.storyboard */,
+				9D4AE8661FC6AF8A009F8B17 /* Assets.xcassets */,
+				9D4AE8681FC6AF8A009F8B17 /* LaunchScreen.storyboard */,
+				9D4AE8911FC6B147009F8B17 /* PrefixHeader.pch */,
+				9D4AE86B1FC6AF8A009F8B17 /* Info.plist */,
+				9D4AE86C1FC6AF8A009F8B17 /* main.m */,
+			);
+			path = OpencvDemo;
+			sourceTree = "<group>";
+		};
+		9D4AE8751FC6AF8A009F8B17 /* OpencvDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D4AE8761FC6AF8A009F8B17 /* OpencvDemoTests.m */,
+				9D4AE8781FC6AF8A009F8B17 /* Info.plist */,
+			);
+			path = OpencvDemoTests;
+			sourceTree = "<group>";
+		};
+		9D4AE8801FC6AF8B009F8B17 /* OpencvDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D4AE8811FC6AF8B009F8B17 /* OpencvDemoUITests.m */,
+				9D4AE8831FC6AF8B009F8B17 /* Info.plist */,
+			);
+			path = OpencvDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D4AE8591FC6AF8A009F8B17 /* OpencvDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D4AE8861FC6AF8B009F8B17 /* Build configuration list for PBXNativeTarget "OpencvDemo" */;
+			buildPhases = (
+				6D5EE41C91254C1DF60A2F3F /* [CP] Check Pods Manifest.lock */,
+				9D4AE8561FC6AF8A009F8B17 /* Sources */,
+				9D4AE8571FC6AF8A009F8B17 /* Frameworks */,
+				9D4AE8581FC6AF8A009F8B17 /* Resources */,
+				DDEC17251F5469C74F69A925 /* [CP] Embed Pods Frameworks */,
+				B69294241DF8206F206AF72A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpencvDemo;
+			productName = OpencvDemo;
+			productReference = 9D4AE85A1FC6AF8A009F8B17 /* OpencvDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D4AE8711FC6AF8A009F8B17 /* OpencvDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D4AE8891FC6AF8B009F8B17 /* Build configuration list for PBXNativeTarget "OpencvDemoTests" */;
+			buildPhases = (
+				43212E197E224ED87721B2A2 /* [CP] Check Pods Manifest.lock */,
+				9D4AE86E1FC6AF8A009F8B17 /* Sources */,
+				9D4AE86F1FC6AF8A009F8B17 /* Frameworks */,
+				9D4AE8701FC6AF8A009F8B17 /* Resources */,
+				4AFE1A665722EECDD3843ED7 /* [CP] Embed Pods Frameworks */,
+				5B59A4F40A92B5594B1907AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D4AE8741FC6AF8A009F8B17 /* PBXTargetDependency */,
+			);
+			name = OpencvDemoTests;
+			productName = OpencvDemoTests;
+			productReference = 9D4AE8721FC6AF8A009F8B17 /* OpencvDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D4AE87C1FC6AF8A009F8B17 /* OpencvDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D4AE88C1FC6AF8B009F8B17 /* Build configuration list for PBXNativeTarget "OpencvDemoUITests" */;
+			buildPhases = (
+				ADF30812071C4906B09E8BF4 /* [CP] Check Pods Manifest.lock */,
+				9D4AE8791FC6AF8A009F8B17 /* Sources */,
+				9D4AE87A1FC6AF8A009F8B17 /* Frameworks */,
+				9D4AE87B1FC6AF8A009F8B17 /* Resources */,
+				F020D73D428EE244FDD14606 /* [CP] Embed Pods Frameworks */,
+				719984A173C1AA1E3A9857B5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D4AE87F1FC6AF8A009F8B17 /* PBXTargetDependency */,
+			);
+			name = OpencvDemoUITests;
+			productName = OpencvDemoUITests;
+			productReference = 9D4AE87D1FC6AF8A009F8B17 /* OpencvDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D4AE8521FC6AF8A009F8B17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Haooing;
+				TargetAttributes = {
+					9D4AE8591FC6AF8A009F8B17 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					9D4AE8711FC6AF8A009F8B17 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D4AE8591FC6AF8A009F8B17;
+					};
+					9D4AE87C1FC6AF8A009F8B17 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D4AE8591FC6AF8A009F8B17;
+					};
+				};
+			};
+			buildConfigurationList = 9D4AE8551FC6AF8A009F8B17 /* Build configuration list for PBXProject "OpencvDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D4AE8511FC6AF8A009F8B17;
+			productRefGroup = 9D4AE85B1FC6AF8A009F8B17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D4AE8591FC6AF8A009F8B17 /* OpencvDemo */,
+				9D4AE8711FC6AF8A009F8B17 /* OpencvDemoTests */,
+				9D4AE87C1FC6AF8A009F8B17 /* OpencvDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D4AE8581FC6AF8A009F8B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4AE86A1FC6AF8A009F8B17 /* LaunchScreen.storyboard in Resources */,
+				9D4AE8FB1FC83C30009F8B17 /* tessdata in Resources */,
+				9D4AE8671FC6AF8A009F8B17 /* Assets.xcassets in Resources */,
+				9D4AE8651FC6AF8A009F8B17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4AE8701FC6AF8A009F8B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4AE87B1FC6AF8A009F8B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43212E197E224ED87721B2A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpencvDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AFE1A665722EECDD3843ED7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpencvDemoTests/Pods-OpencvDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B59A4F40A92B5594B1907AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpencvDemoTests/Pods-OpencvDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D5EE41C91254C1DF60A2F3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpencvDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		719984A173C1AA1E3A9857B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpencvDemoUITests/Pods-OpencvDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADF30812071C4906B09E8BF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpencvDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B69294241DF8206F206AF72A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpencvDemo/Pods-OpencvDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDEC17251F5469C74F69A925 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpencvDemo/Pods-OpencvDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F020D73D428EE244FDD14606 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpencvDemoUITests/Pods-OpencvDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D4AE8561FC6AF8A009F8B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4AE8621FC6AF8A009F8B17 /* ViewController.mm in Sources */,
+				9D4AE86D1FC6AF8A009F8B17 /* main.m in Sources */,
+				9D4AE85F1FC6AF8A009F8B17 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4AE86E1FC6AF8A009F8B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4AE8771FC6AF8A009F8B17 /* OpencvDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4AE8791FC6AF8A009F8B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4AE8821FC6AF8B009F8B17 /* OpencvDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D4AE8741FC6AF8A009F8B17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D4AE8591FC6AF8A009F8B17 /* OpencvDemo */;
+			targetProxy = 9D4AE8731FC6AF8A009F8B17 /* PBXContainerItemProxy */;
+		};
+		9D4AE87F1FC6AF8A009F8B17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D4AE8591FC6AF8A009F8B17 /* OpencvDemo */;
+			targetProxy = 9D4AE87E1FC6AF8A009F8B17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D4AE8631FC6AF8A009F8B17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D4AE8641FC6AF8A009F8B17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D4AE8681FC6AF8A009F8B17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D4AE8691FC6AF8A009F8B17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D4AE8841FC6AF8B009F8B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D4AE8851FC6AF8B009F8B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D4AE8871FC6AF8B009F8B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E713FF49FEC48FDF64EC57B2 /* Pods-OpencvDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTY3VD3L8S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpencvDemo",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OpencvDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = OpencvDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guc.OpencvDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D4AE8881FC6AF8B009F8B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9636CC577F810AEA1929F4A /* Pods-OpencvDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTY3VD3L8S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpencvDemo",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OpencvDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = OpencvDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guc.OpencvDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D4AE88A1FC6AF8B009F8B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FB8D01DFC7E0B598091AA52 /* Pods-OpencvDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTY3VD3L8S;
+				INFOPLIST_FILE = OpencvDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guc.OpencvDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpencvDemo.app/OpencvDemo";
+			};
+			name = Debug;
+		};
+		9D4AE88B1FC6AF8B009F8B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A25527A2F38E63CE22A786 /* Pods-OpencvDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTY3VD3L8S;
+				INFOPLIST_FILE = OpencvDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guc.OpencvDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpencvDemo.app/OpencvDemo";
+			};
+			name = Release;
+		};
+		9D4AE88D1FC6AF8B009F8B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D28062CA56A137A975DC0F /* Pods-OpencvDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTY3VD3L8S;
+				INFOPLIST_FILE = OpencvDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guc.OpencvDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpencvDemo;
+			};
+			name = Debug;
+		};
+		9D4AE88E1FC6AF8B009F8B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB6DC20837E4B4B82B83410 /* Pods-OpencvDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTY3VD3L8S;
+				INFOPLIST_FILE = OpencvDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guc.OpencvDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpencvDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D4AE8551FC6AF8A009F8B17 /* Build configuration list for PBXProject "OpencvDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D4AE8841FC6AF8B009F8B17 /* Debug */,
+				9D4AE8851FC6AF8B009F8B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D4AE8861FC6AF8B009F8B17 /* Build configuration list for PBXNativeTarget "OpencvDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D4AE8871FC6AF8B009F8B17 /* Debug */,
+				9D4AE8881FC6AF8B009F8B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D4AE8891FC6AF8B009F8B17 /* Build configuration list for PBXNativeTarget "OpencvDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D4AE88A1FC6AF8B009F8B17 /* Debug */,
+				9D4AE88B1FC6AF8B009F8B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D4AE88C1FC6AF8B009F8B17 /* Build configuration list for PBXNativeTarget "OpencvDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D4AE88D1FC6AF8B009F8B17 /* Debug */,
+				9D4AE88E1FC6AF8B009F8B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D4AE8521FC6AF8A009F8B17 /* Project object */;
+}
